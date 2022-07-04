@@ -1,0 +1,6 @@
+digraph "classes" {
+rankdir=BT
+charset="utf-8"
+"components.EV" [color="black", fontcolor="black", label="{EV|VTG_capacity : int\lallowed_VTG_percentage : NoneType\larrival_time_home : NoneType\larrival_time_work : NoneType\lbattery_level_at_charging_start : NoneType\lbattery_percentage : int\lbattery_volume\lcharging : bool, NoneType\lcharging_speed\lcheapest_timesteps : list\lcurrent_battery_volume : NoneType\lcurrent_location : str\lcurrent_power_demand : int, NoneType\ldeparture_time : int\ldwell_time : int\lenergy_rate\lenergy_required : NoneType\lforce_charge : bool\lmoving : bool\lneeded_battery_level_at_charging_end : NoneType\loffset_dep : int\loffset_dwell : int\lplugged_in : bool\lreturn_time\lsmart\ltime_charging_must_finish : NoneType\l|arrive_home()\larrive_work()\lcharge()\lchoose_cheapest_timesteps(starting_time, ending_time, charge_needed)\ldeparture_home()\ldeparture_work()\ldetermine_power_demand()\ldischarge()\lsetup()\lstep()\l}", shape="record", style="solid"];
+"components.Municipality" [color="black", fontcolor="black", label="{Municipality|current_EVs : list\lcurrent_power_demand : NoneType\lnumber_EVs : NoneType, int\l|setup()\lstep()\lupdate_number_EVs()\lupdate_power_demand()\l}", shape="record", style="solid"];
+}
